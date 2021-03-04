@@ -1,0 +1,14 @@
+﻿*.lock
+*.bin
+.idea/uiDesigner.xml
+*.meta
+.idea/dataSources/c0260758-48d4-4965-b74e-9587d5aa2de5.xml
+build/tmp/compileJava/source-classes-mapping.txt
+*.class
+out
+build
+src/main/resources/META-INF/dao.properties
+src/sql/base.sql
+/.idea/
+/.gradle/
+/src/main/java/main/

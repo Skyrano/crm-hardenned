@@ -1,0 +1,128 @@
+#logo {
+    max-height: 7vh;
+    margin-right: 2vh;
+}
+
+.bg-barre {
+    background-color: #297b3d;
+}
+
+.btn-ensibs {
+    background-color: #80b338;
+    color: white;
+}
+
+
+/* style du footer */
+
+.footer {
+    margin-top: auto;
+    min-height: 50px;
+    width: 100%;
+    padding-top: 1%;
+    position: relative;
+    bottom: 0;
+    /* rouge utilisé par la ville de Rennes */
+    background-color: #f5f5f5;
+    padding-bottom: 1rem !important;
+    padding-top: 1rem !important;
+}
+
+
+/* style du texte du footer, pour qu'il ne soit pas collé à la fenêtre */
+
+.footer p {
+    margin-right: 2%;
+}
+
+
+/* style de la page */
+
+.page_body {
+    display: flex;
+    /* oblige la page a avoir la hauteur minimale de l'écran utilisé
+    (ainsi le footer est collé au pied de la page même si cette dernière est peu remplie) */
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.text-footer-left {
+    float: left;
+}
+
+.container-footer {
+    text-align: right;
+    color: #6c757d;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: 1vw;
+}
+
+@media screen and (max-width: 1330px) {
+    .container-footer {
+        font-size: 1.5vw;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .container-footer {
+        font-size: 2vw;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .container-footer {
+        font-size: 2.5vw;
+    }
+}
+
+main {
+    margin-top: 12vh;
+}
+
+.marginMenuUtilisateur {
+    margin-right: 2vw;
+}
+
+.contactPolice {
+    font-size: 20px;
+    color: #212529;
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+
+/* On mouse-over, add a deeper shadow */
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.lien-accueil {
+    color: black !important;
+}
+
+.lien-accueil:hover {
+    text-decoration: none;
+}
+
+.adminCard {
+    max-width: 15vw;
+}
+
+.mdpValid {
+    border-color: #A5D531 !important;
+    outline: 0 !important;
+    box-shadow: 0 0 0 0.2rem rgba(165, 213, 49, 0.25) !important;
+}
+
+.mdpNonValid {
+    border-color: #DD1616 !important;
+    outline: 0 !important;
+    box-shadow: 0 0 0 0.2rem rgba(221, 22, 22, 0.25) !important;
+}
